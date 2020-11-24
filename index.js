@@ -48,15 +48,23 @@ function renderAbout() {
 function renderContact() {
     clearPage();
     content.innerHTML = `
-    <div class="social-icons" style="margin-top: 10rem;background: rgba(57,57,57,0.66);">
-        <a href="http://linkedin.com/in/arynn-boniface" target="_blank><i class="icon ion-social-linkedin" style="color: rgb(255,255,255);"></i></a>
+    <div class="social-icons" style="margin-top: 10rem; background: rgba(210,210,210, 0.8); text-align: center; border-radius: 10px;">
+        <a href="http://linkedin.com/in/arynn-boniface" target="_blank>
+            <img src="assets/img/linkedin.png" />
+        </a>
 
-        <a href="http://github.com/ronniekram" target="_blank"><i class="icon ion-social-github-outline" style="color: rgb(255,255,255);"></i></a>
+        <a href="http://github.com/ronniekram" target="_blank">
+        <img src="assets/img/github.png" />
+        </a>
 
-        <a href="https://dev.to/arynnboniface" target="_blank"><i class="icon ion-compose" style="color: rgb(255,255,255);"></i></a>
+        <a href="https://dev.to/arynnboniface" target="_blank">
+        <img src="assets/img/blogging.png" />
+        </a>
 
         <a
-        href="mailto:arynn.boniface@gmail.com"><i class="icon ion-ios-email-outline" style="color: rgb(255,255,255);"></i></a>
+        href="mailto:arynn.boniface@gmail.com">
+            <img src="assets/img/gmail.png" />
+        </a>
 </div>`
 
 }
