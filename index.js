@@ -5,11 +5,12 @@ const contact = document.getElementById("contact-link");
 const home = document.getElementById("home-link");
 
 document.addEventListener("DOMContentLoaded", () => {
-    about.addEventListener("click", renderAbout());
-    contact.addEventListener("click", renderContact());
-    portfolio.addEventListener("click", renderPortfolio());
-    home.addEventListener("click", renderHome());
+    about.addEventListener("click", renderAbout);
+    contact.addEventListener("click", renderContact);
+    portfolio.addEventListener("click", renderPortfolio);
+    home.addEventListener("click", renderHome);
 })
+
 
 function renderAbout() {
     clearPage();
