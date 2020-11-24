@@ -64,7 +64,7 @@ function renderContact() {
 function renderPortfolio() {
     clearPage();
     content.innerHTML = `
-    <div class="d-lg-flex" style="margin-top: 6 rem;">
+    <div class="d-lg-flex" style="margin-top: 4rem;">
         <div class="container">
             <div class="row">
                 <div class="col-md-4"><img src="assets/img/Screen%20Shot%202020-11-22%20at%207.57.14%20PM.png" width="100%" style="border-top-left-radius: 10px;border-top-right-radius: 10px;">
