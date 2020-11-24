@@ -50,15 +50,15 @@ function renderContact() {
     content.innerHTML = `
     <div class="social-icons" style="margin-top: 10rem; background: rgba(210,210,210, 0.8); text-align: center; border-radius: 10px;">
         <a href="http://linkedin.com/in/arynn-boniface" target="_blank>
-            <img src="assets/img/linkedin.png" />
+            <img src="assets/img/linkedin.png" /> LINKEDIN
         </a>
 
         <a href="http://github.com/ronniekram" target="_blank">
-        <img src="assets/img/github.png" />
+            <img src="assets/img/github.png" />
         </a>
 
         <a href="https://dev.to/arynnboniface" target="_blank">
-        <img src="assets/img/blogging.png" />
+            <img src="assets/img/blogging.png" />
         </a>
 
         <a
