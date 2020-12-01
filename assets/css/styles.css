@@ -6,3 +6,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.contact-link {
+    padding: .5rem;
+    margin: .5rem;
+}
