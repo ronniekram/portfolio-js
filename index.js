@@ -132,17 +132,19 @@ function renderPortfolio() {
 function renderHome() {
     clearPage();
     content.innerHTML = `
-    <div class="row" style="width: 960px;">
-    <div class="col-md-12" style="width: 960px;margin-top: 10rem;background: rgba(54,54,54,0.87);margin-bottom: 4rem;">
-        <h1 class="text-center" style="color: rgb(255,255,255);font-family: Roboto, sans-serif;">hello. i'm arynn and i'm a software engineer.</h1>
+    <div class="container" id="main-content">
+        <div class="row" style="width: 100%;">
+            <div class="col-md-12" style="width: 100%;margin-top: 10rem;background: rgba(54,54,54,0.87);margin-bottom: 4rem;">
+                <h1 class="text-center" style="color: rgb(255,255,255);font-family: Roboto, sans-serif;">hello. i'm arynn and i'm a software engineer.</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12" style="background: #363636de;width: 100%;">
+                <h1 class="text-center" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;font-weight: bold;font-style: normal;font-size: 50px;">IT'S NICE TO MEET YOU.</h1>
+            </div>
+        </div>
     </div>
-</div>
-<div class="row">
-    <div class="col-md-12" style="background: #363636de;width: 960px;">
-        <h1 class="text-center" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;font-weight: bold;font-style: normal;font-size: 50px;">IT'S NICE TO MEET YOU.</h1>
-    </div>
-</div>
-`
+    `
 
 }
 
