@@ -49,7 +49,7 @@ function renderContact() {
     clearPage();
     content.innerHTML = `
     <div class="social-icons" style="margin-top: 10rem; background: rgba(210,210,210, 0.8); text-align: center; border-radius: 10px;">
-        <a href="http://linkedin.com/in/arynn-boniface" target="_blank>
+        <a href="http://linkedin.com/in/arynn-boniface" target="_blank class="contact-link">
             <img src="assets/img/linkedin.png" class="contact-link" />
         </a>
 
